@@ -12,11 +12,11 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithPassword" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{e8760f1c-c939-4cd7-8665-5c27448ffd9d}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">Integration Services Project1</SSIS:Property>
-          <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMajor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionComments">
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-P0R003A</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAo0nMaWJi1kqXU5jo7CeMcgAAAAACAAAAAAAQZgAAAAEAACAAAADhJjiPH5oOG+FOFKllKli9Txo2AAkO1snpjoFKFkddyQAAAAAOgAAAAAIAACAAAADfX6MbCVBwyelv266b+f/50yRgc3E8la2XuF6HVJgQ8ZAAAAC4DAXErdaw86ZnykrwKeeCyurmecPeC/UJk5oHoHXBkFuhfVlWWLEb0cquh3Z1EiCylaslsztY136WdePNuVC8zKBvEzfeOtVtFmQ8B/c7XQlIwn7Wh5vbt79NFhttdupfDMJ/YE1ESukNJrJ1deydwfex59UXjpHW+Xa5FBnbfgLVGAVxPLSwBGHDYJC3U6xAAAAARm6rVHIZIHJe43Rqse1yd+lmPQqQVHLnXlMU8Bz2pAN6hjGJq6d692d3tAv7s8LCzxUH8KlLiSEhWPfQM4XQyQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="GVYfAj8/zg8=" SSIS:IV="sQX4x8M2HLw1yhP0/KbnQQ==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">wv6WBJBXk6OlAeyddAwWX8kkW8pcmfrjJgJ/DF8Awt3yR6TXosj7976THifh+OXiyDoiNMZvkSKFAYI8yXPgynlYhM69MDHlFbD1lbwyeX/uJr5Y/Dd6SPWzxYWU8ocKrgEscztbiAyy0YHgwym0pa+TrqGfLZS9lMkJiSY2E4sB8U/URznPEAkEUwgyvLWo</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
